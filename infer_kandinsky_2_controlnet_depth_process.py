@@ -23,7 +23,7 @@ class InferKandinsky2ControlnetDepthParam(core.CWorkflowTaskParam):
         self.height = 768
         self.width = 768
         self.prior_num_inference_steps = 25
-        self.num_inference_steps = 10
+        self.num_inference_steps = 100
         self.seed = -1
         self.update = False
 
