@@ -247,7 +247,8 @@ class InferKandinsky2ControlnetDepthFactory(dataprocess.CTaskFactory):
         # URL of documentation
         self.info.documentation_link = "https://huggingface.co/kandinsky-community/kandinsky-2-2-controlnet-depth"
         # Code source repository
-        self.info.repository = "https://github.com/ai-forever/Kandinsky-2"
+        self.info.repository = "https://github.com/Ikomia-hub/infer_kandinsky_2_controlnet_depth"
+        self.info.original_repository = "https://github.com/ai-forever/Kandinsky-2"
         # Keywords used for search
         self.info.algo_type = core.AlgoType.INFER
         self.info.algo_tasks = "IMAGE_GENERATION"
